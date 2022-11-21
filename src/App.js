@@ -141,7 +141,7 @@ function App() {
                   value={text}
                   onChange={(e) => setText(e.target.value)}
                 ></input>
-                <Button onClick={() =>{ dispatch(editText(text, index));setSelect(null)}}>
+                <Button variant ="danger" onClick={() =>{ dispatch(editText(text, index));setSelect(null)}}>
                   edit
                 </Button>
               </div>
